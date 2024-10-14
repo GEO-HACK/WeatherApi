@@ -1,0 +1,62 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Environment variables and secrets
+.env
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Media and static files
+/media/
+staticfiles/
+
+# Python virtual environment
+venv/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Byte-compiled and cached files
+*.py[cod]
+*$py.class
+
+# Test coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# Pytest
+.pytest_cache/
+
+# Other OS-specific or temporary files
+*.swp
+.DS_Store
+Thumbs.db
+
+
+venv
